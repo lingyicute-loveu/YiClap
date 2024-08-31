@@ -1,157 +1,112 @@
-## **Q: How do I get the beta version of YiClap?**
-You can opt-in for the beta build by clicking on this link: https://play.google.com/apps/testing/code.name.monkey.retromusic
+## **Q：如何获取YiClap的测试版？**
+您可以查看 GitHub Actions 的测试版构建。
 
 ___
 
-## **Q: How to restore my purchases?**
-Make sure to switch and use your account in the Play Store app through which you purchased before installing YiClap. The Google account used to install the app is also used to purchase/restore the pro license.
+## **Q：如何显示歌词？**
+在YiClap中，有以下添加离线同步歌词的方法。
 
-If you've already installed the app, remove all other accounts except the one from which you purchased premium, and then restore the purchase.
+#### 步骤1：
+找到您歌曲的时间戳歌词。时间戳歌词的格式如下：“[00:04:02] 一些歌词文本”
+#### 步骤2：
+复制这些时间戳歌词。
+#### 步骤3：
+打开YiClap并进入标签编辑器。
+#### 步骤4：
+在编辑器中粘贴歌词，然后退出编辑器。
+#### 步骤5：
+播放歌曲，现在您应该能看到您的时间戳歌词啦。
 
-___
-
-## Q: **How do I use offline synced lyrics?**
-There are three methods for adding offline synced lyrics in YiClap.
-
-### ***Method 1:-***
-#### STEP 1: 
-Find the time-stamped lyrics for your songs that don't have lyrics already. A time-stamped lyric looks like this, "[00:04:02] Some lyrics text" for example.
-#### STEP 2: 
-Copy these time-stamped lyrics.
-#### STEP 3: 
-Open retro music and head to the song synced lyrics editor.
-#### STEP 4: 
-Paste the lyrics there normally and exit the editor
-#### STEP 5: 
-Open lyrics and you should see your time-stamped lyrics there.
-
-### ***Method 2:-***
-#### STEP 1: 
-Download the time-stamped lyrics for your songs that don't have lyrics already. You can find ".lrc" files for popular songs at either of the websites given below. A time-stamped lyric looks like this, "[00:04:02] Some lyrics text" for example.
-#### STEP 2: 
-A ".lrc" is like a text file that contains the time-stamped lyrics for example, "[00:04:02] Some lyrics text". Save your time-stamped lyrics are ".lrc" file.
-#### STEP 3: 
-Now you have to rename the file you created in this way: <song_name> - <artist_name>.lrc or for better matching copy the <song_name> and the <artist_name> from the tag editor and then rename the file.
-### STEP 4: 
-Now paste the LRC files to the following path: /sdcard/Retromusic/lyrics/
-Here sdcard is your internal storage.
-
-### ***Method 3:- (Requires third-party app)***
-#### STEP 1:
-Download automatag or autotagger from Play Store.
-#### STEP 2:
-Find the time-stamped lyrics for your songs that don't have lyrics already. You can find ".lrc" files for popular songs at either of the websites given below. A time-stamped lyric looks like this, "[00:04:02] Some lyrics text" for example.
-#### STEP 3:
-Find your song to edit and paste the synced lyrics. 
-> These apps add those synced lyrics in the music file itself instead of creating a ".lrc file for it."
-
-**Lyrics Website Links:**
-- https://www.lyricsify.com/
-- https://www.syair.info
-
-**Some Important Notes:**
-- If you want to skip to a particular timestamp, simply scroll to the time stamp from where you want to start and a 'Play' icon will appear left to the particular stamp. Tap on the play button to play from there.
-- When you save lyrics by pasting lyrics in lyrics editor, close the lyrics and open again for lyrics to show.
-- For those who are having difficulty in making the synced lyrics work, we have a short tutorial video on it. Hope this helps you. {[Link in the note or here](https://youtu.be/1oIOTGWhNMY)}
+**一些重要说明：**
+- 如果您想跳到特定的时间戳，只需滚动到您想开始的时间戳，特定时间戳左侧会出现一个“播放”图标。点击播放按钮即可从那里播放。
+- 当您通过在编辑器中粘贴歌词来保存歌词时，关闭歌词并重新打开以显示歌词。
 
 ___
 
-## **Q: How do I change the theme?**
-Settings -> Look and feel -> Select your theme.
+## **Q：如何更改主题？**
+设置 -> 界面与外观 -> 选择您的主题。
 ___
 
-## **Q: Equalizer is very laggy and unstable or I am getting a "No equalizer found" error. Why?**
-- The YiClap music in-built equalizer was removed updates ago so the only equalizer you will have by your OEM or Android native equalizer which isn't made by us and have no control over them. So you can report those issues to your OEM so that they can provide a fix in the next updates.
+## **Q：均衡器非常滞后和不稳定，或者我收到“未找到均衡器”的错误。为什么？**
+- YiClap没有内置音乐均衡器，因此它使用系统自带的均衡器。很遗憾的是，并非所有系统都遵循规范。例如，国内的各类魔改UI提供的系统均衡器几乎都存在各种问题，更有甚者直接删除了系统均衡器。这真是一件令人讨厌的事情。
 
-- If you are seeing "No Equalizer Found" in your device, this means your device doesn't have a stock equalizer "MusicFx" Equalizer. You can try using this one. It's made by AEX ROM developers.
-
-https://drive.google.com/file/d/1_1bpsn6roeEyElGKikbU39lVKUH8O3xp/view?**usp=drivesdk
-
-___
-
-## **Q: Why aren't last added songs showing?**
-Settings -> Other -> Last added playlist interval -> Select an option from the list.
-___
-
-## **Q: How do I enable fullscreen lock screen controls?**
-Settings -> Personalize -> Fullscreen controls -> Enable (this will only be visible when songs are playing from YiClap).
-___
-
-## **Q: Why are my gallery or random pictures showing up as album art?**
-Settings -> Images -> Ignore media store covers -> Enable
-___
-
-## **Q: Which file types are supported?**
-YiClap uses the native media player that comes with your Android phone, so as long as a file type is supported by your phone, it's supported by YiClap.
-___
-
-## **Q: Why is my device slowing down when I'm using the app?**
-YiClap is image intensive, it keeps images in the cache for quick loading.
-___
-
-## **Q: The title "YiClap" is showing on the top of the app, how can I fix this?** 
-Clear the app's cache and data.
-___
-
-## **Q: My app is crashing, how do I fix this?** (Sorry, settings have changed internally) 
-Please try to clear the data of the app. If it doesn't work, reinstalling fresh from the play store should help.
-___
-
-## **Q: Why has all the text gone white/disappeared?** 
-Change the theme to Black or Dark and change it back to what you had before.
-___
-
-## **Q: Why some of my songs are not showing in my library?**
-- Try checking up if those songs are not less than 30 seconds, if so head to settings -> other -> filter song duration. Put this to zero and see the songs that should start appearing in the library.
-
-- If this doesn't work out for you, re-scanning the media folder should help and subsequently rebooting the device to refresh the media store.
-
-- At last, resort, If nothing worked and your audio files are stored in SD card. Try moving them to internal memory then back to SD card.
+- 如果您在设备上看到“未找到均衡器”，这意味着您的设备没有内置的均衡器。
 
 ___
 
-## **Q: Why does my library shows song files twice or no song at all?**
-If you are seeing duplication of songs in the library or no songs at all, then it's because of the Media Store issue which got affected by some other app. 
-
-***To fix this:***
-1. Head to your device settings
-
-1. Open up "Apps & notifications" (This name depends from ROM to ROM)
-
-1. Find the 'Media storage' app and clear storage (both data and cache) of it.
-
-1. Then open the YiClap app and manually scan your music from your storage. 
-
-1. Reboot the device to refresh the media store (Not sure if this is necessary)
-
-**NOTE:** Don't panic when you will open YiClap and see "Zero" songs there in the library. It's because you cleared Media Store which is responsible for recognising files on your device.
+## **Q：如何启用锁屏控制？**
+设置 -> 个性化 -> 全屏控件 -> 启用（它仅在从YiClap播放歌曲时可见）。
 ___
 
-## **Q: I can't find the folder menu anymore after the latest update?**
-Head to settings -> personalise. And select folders from "library categories". If there is no option of folders, tap on reset and select folders.
+## **Q：为什么专辑封面显示成了各种乱七八糟的东西？**
+设置 -> 图片 -> 忽略媒体存储封面 -> 启用
 ___
 
-## **Q: After updating the app to the latest version, the font got removed. Why?**
-- YiClap's font has now been replaced with system font, which means the default font your system uses will be used by YiClap too. It fixes all font-related issues you used to face/are facing in the app. 
-
-- With the recent YiClap v5 release, we have a built-in optional font "Manrope font" which you can toggle from Settings > Look & Feel > Toggle "Use manrope font".
-
-- If you think the font looks ugly, then you just need to change the default font from your Android settings (or use any Magisk module). If you can't, there's nothing we can do about it.
+## **Q：支持哪些文件类型？**
+YiClap使用您Android手机自带的媒体解码功能，因此只要文件类型受到您手机的支持，YiClap也会支持。
 ___
 
-## **Q: How to export playlist?**
-- ***From YiClap:***
-
-Head to the playlists tab > tap on the three-dot menu on the playlist you want to export > save as a file.
-
-- ***From Other Music Players:***
-
-In your built-in music player, there should be an option to save that playlist as a file. Save them and import them from the file manager by opening it into retro music.
-
-> Note that such playlist must be of your offline music only since retro music is an offline music player, not an online music player. So if your playlist is of online music, it can't be opened on other offline players nor can be exported
+## **Q：为什么我使用应用时设备变慢？**
+YiClap对图像要求较高，它会将图像保存在缓存中以便快速加载。
 ___
 
-## **Q: How to restore/import playlist?**
-YiClap will automatically detect any playlist file when that playlist file is stored in internal storage/Playlist. However, if it doesn't, just open any "File manager" and open that playlist file with YiClap.
+## **Q：“YiClap”标题显示在应用顶部，我该如何解决？**
+清除应用的缓存和数据。
+___
 
-For restoring playlists successfully, the location of songs must be the same in both the "Playlist" file and in your storage. For example, If your music is in "Internal storage/Music" and the playlist file has songs location "Internal storage/Songs". Then it will not be going to work since both these locations are different.
+## **Q：我的应用崩溃了，我该如何解决？**
+真的很抱歉！请尝试清除应用的数据。如果无效，重新安装它试试看。
+___
+
+## **Q：为什么所有文本都变成白色/消失了？**
+将主题更改为黑色或深色，然后再改回您之前的设置。
+___
+
+## **Q：为什么我的某些歌曲在我的库中没有显示？**
+- 请检查这些歌曲是否少于30秒，如果是，请前往设置 -> 其他 -> 过滤歌曲时长。将其设置为零，它们现在应该在库中显示了。
+
+- 如果这仍然无效，重新扫描媒体文件夹应该会有所帮助，重启设备以刷新媒体存储。
+
+- 最后，如果没有任何方法有效，并且您的音频文件存储在SD卡中，请尝试将它们移动到内部存储，然后再移回SD卡。
+
+___
+
+## **Q：为什么我的库中显示歌曲文件两次或根本没有歌曲？**
+如果您在库中看到歌曲重复或根本没有歌曲，那是因为媒体存储出现了问题。这大概是受到了其他应用的影响。
+
+***要解决此问题：***
+1. 前往设备设置
+
+2. 打开“应用和通知”（此名称因系统而异）
+
+3. 找到“媒体存储”应用并清除其存储（包括数据和缓存）。
+
+4. 重启设备以刷新媒体存储。
+
+**注意：** 当您打开YiClap并看到库中显示“零”首歌曲时，不要惊慌。这是因为您清除了媒体存储，而媒体存储负责识别您设备上的文件。
+___
+
+## **Q：更新应用到最新版本后，字体被移除了。为什么？**
+- YiClap的字体现在已被系统字体替换，这意味着您的系统使用的默认字体也将被YiClap使用。这解决了您在应用中遇到的所有与字体相关的问题。
+
+- 在最近的YiClap v5版本中，我们内置了可选字体“lyi's font”，您可以从设置 > 界面与外观 中进行切换。
+
+- 如果您认为系统字体看起来很丑，那么您只需从Android设置中更改默认字体（国内魔改UI的话，看看主题商店吧？）
+___
+
+## **Q：如何导出播放列表？**
+- ***从YiClap：***
+
+前往播放列表选项卡 > 点击您想导出的播放列表上的三点菜单 > 另存为文件。
+
+- ***从其他音乐播放器：***
+
+在您内置的音乐播放器中，应该有一个选项可以将该播放列表保存为文件。保存后，通过文件管理器导入到YiClap中。
+
+> 请注意，此类播放列表必须仅包含您的离线音乐，因为YiClap是一个离线音乐播放器，而不是在线音乐播放器。因此，如果您的播放列表是在线音乐，那么在任何离线播放器中也无法打开。
+___
+
+## **Q：如何恢复/导入播放列表？**
+YiClap会自动检测任何播放列表文件，当该播放列表文件存储在内部存储/播放列表中时。然而，如果没有检测到，只需打开任何“文件管理器”，并用YiClap打开该播放列表文件。
+
+要成功恢复播放列表，歌曲的位置必须在“播放列表”文件和您的存储中相同。例如，如果您的音乐在“内部存储/Music”中，而播放列表文件的歌曲位置在“内部存储/Songs”中。那么它将无法工作，因为这两个位置不同。
